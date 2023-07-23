@@ -1,0 +1,100 @@
+<!-- Declaração de que se trata de um documento tipo html -->
+<!DOCTYPE html>
+
+<!-- conjunto da linguagem a ser utilizada -->
+<html lang="pt-br"> 
+
+	<head>
+		<!-- conjunto de caracteres a serem utilizados -->
+		<meta charset="UTF-8">
+
+		<!-- - viewport para verificar o tamanho da tela utilizada -->
+		<meta name="viewport" content="width=device-width, initial-scale = 1.0">
+		
+		<!-- incluindo uma imagem antes do nome na aba do site -->
+		<link rel="shortcut icon" type="imagex/png" href=".././assets/images/estrela-tripla.ico"><title>Portifólio - Formação</title>
+		
+		<!-- limpando todos os atributos do navegador para ter total controle do que fazer -->
+		<link rel="stylesheet" href=".././assets/css/reset.css" />
+
+		<!-- folhas de estilo -->
+		<link rel="stylesheet" href=".././assets/css/logo-estrela.css" />
+		<link rel="stylesheet" href=".././assets/css/paginaInicial.css" />
+		<link rel="stylesheet" href=".././assets/css/redesSociais.css" />
+		<link rel="stylesheet" href=".././assets/css/rodape.css" />
+		<link rel="stylesheet" href=".././assets/css/style.css" />
+		
+		<link rel="stylesheet" href=".././assets/css/cabecalho/cabecalho.css" />
+		<link rel="stylesheet" href=".././assets/css/cabecalho/cabecalhoDireita.css"  />
+		<link rel="stylesheet" href=".././assets/css/cabecalho/cabecalhoEsquerda.css" />
+		<link rel="stylesheet" href=".././assets/css/cabecalho/cabecalhoMenuPrincipal.css" />
+		
+		
+	</head>
+
+	<body>
+		<header class = "cabecalho container">
+			
+				<h1 class = "cabecalho__esquerda--outras">
+					<div class = "logoTresEstrelas--outras" >
+						<img class = "estrelaMaior" id="cabecalho__esquerda--estrelaMaior--outras" src=".././assets/images/estrela.svg" alt="Desenho de uma estrela" >
+						<div class = "estrelasMenores">
+							<img class = "estrelaSuperior" src=".././assets/images/estrela.svg" alt = "Desenho de uma estrela menor acima" >
+							<img class = "estrelaInferior" src=".././assets/images/estrela.svg" alt = "Desenho de uma estrela menor abaixo" >
+						</div>
+						<p class = "acronimo fonteTextoNegrito" id = "cabecalho__esquerda--acronimo--outras"  onmouseover="trocarImagemEstrelaOutras()" onmouseout="voltarImagemEstrelaOutras()">al f a s</p>
+					</div>	
+					 
+					<!-- Logo das Redes Sociais nas outras páginas do portifólio -->
+					<nav class = "redesSociais--outras">
+					<ul class = "iconesRedesSociais--outras">
+						<li><a href="https://www.github.com/alexfabianovix"><img class="icones--outras" src="../assets/images/sociais/logo-github-pb.png" alt="Link para o Github" id = "redesSociais__github--outras"  onmouseover="trocarImagemGithubOutras()" onmouseout="voltarImagemGithubOutras()"></a></li>
+	
+						<li><a href="https://www.linkedin.com/in/alexfabianovix/"><img class="icones--outras" src="../assets/images/sociais/logo-linkedin-pb.png" alt="Link para o Linkedin" id = "redesSociais__linkedin--outras" onmouseover="trocarImagemLinkedinOutras()" onmouseout="voltarImagemLinkedinOutras()"></a></li>
+	
+						<li><a href="https://www.instagram.com/alex_fabiano_vix/"><img class="icones--outras" src="../assets/images/sociais/logo-instagram-pb.png" alt="Link para o Instagram" id = "redesSociais__instagram--outras" onmouseover="trocarImagemInstagramOutras()" onmouseout="voltarImagemInstagramOutras()"></a></li>
+	
+						<li><a href="https://twitter.com/alexfabianovix"><img class="icones--outras" src="../assets/images/sociais/logo-twitter-pb.png" alt="Link para o Twitter" id = "redesSociais__twitter--outras" onmouseover="trocarImagemTwitterOutras()" onmouseout="voltarImagemTwitterOutras()"></a></li>
+	
+						<li><a href="../assets/docs/Alex-fabiano.pdf"><img class="icones--outras" src="../assets/images/logo-curriculum-pb.png" alt="Link para meu Currículum" id = "redesSociais__curriculum--outras" onmouseover="trocarImagemCurriculumOutras()" onmouseout="voltarImagemCurriculumOutras()"></a></li>
+	
+					</ul>
+					</nav>
+
+				</h1>
+			
+			<nav class="cabecalho__menuPrincipal">
+				<ul class = "cabecalho__menuPrincipal--itensNavegacao fonteTextoNormal">
+					<li><a class="opcaoMenuPrincipal" href="../index.html">Principal</a></li>
+					<li><a class="opcaoMenuPrincipal" href="sobre.html">Sobre</a></li>
+					<li><a class="opcaoMenuPrincipal" href="skills.html">Skills</a></li>
+					<li><a class="opcaoMenuPrincipal" href="hobbies.html">Hobbies</a></li>
+					<li><a class="opcaoMenuPrincipal" href="projetos.html">Projetos</a></li>
+				</ul>
+			</nav>
+			<section class="cabecalho__direita fonteTextoNegrito">
+				<img class="cabecalho__direita--logoPb" id="cabecalho__direita--logoEmailPb--outras" src="../assets/images/logo-email-pb.png" alt="desenho de uma carta">  
+				<a href="formulario.html" onmouseover="trocarImagemEmailOutras()" onmouseout="voltarImagemEmailOutras()">alex.fabiano.vix@gmail.com</a>
+			</section>			
+		</header>	
+		
+		<main>
+
+
+		</main>
+		
+
+		<footer>
+			<section class="responsavel">
+				<p class="fonteTextoNormal" id="textoRodape" onmouseover="trocarImagemRodapeOutras()" onmouseout="voltarImagemRodapeOutras()">Desenvolvido por Alex Fabiano</p>
+				<img class = "estrelaMaior" id="cabecalho__esquerda--estrelaRodape--outras" src="../assets/images/estrela.svg" alt="logo estrela" >
+				<p class="fonteTextoNormal" id="textoRodape" onmouseover="trocarImagemRodapeOutras()" onmouseout="voltarImagemRodapeOutras()">2023</p>
+			</section>
+		</footer>
+
+		<!-- Importa arquivos Javascript -->
+		<script src=".././assets/app/trocaImagemOutrasPaginas.js"></script>
+
+	</body>
+
+</html>

@@ -1,0 +1,15 @@
+.cabecalho__esquerda {
+	align-items: center;
+	display: flex;
+}
+
+.acronimo {
+	text-transform: uppercase;
+}
+
+.cabecalho__esquerda--outras {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+}
+

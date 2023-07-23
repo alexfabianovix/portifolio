@@ -1,0 +1,75 @@
+/* CSS para a página Skills */
+
+progress {
+	height: 10px;
+	width: 100px;
+	background-color: #00B0F0;
+}
+
+.skills {
+	display: flex;
+	justify-content: center;
+}
+
+.tituloColunaUm {
+	left: 1%;
+}
+
+.tituloColunaDois {
+	left: 51%;
+}
+
+.hardSkills h3, .softSkills h3 {
+	position: relative;
+	font-size: 16px;
+	font-weight: 700;
+}
+
+.skills h2 {
+	position: absolute;
+	top: 68px;
+}
+
+.logosSkills {
+	height: 37px;
+	width: auto;
+	vertical-align: bottom;
+}
+
+.hardSkills, .softSkills {
+	width: 100%;
+	margin: 0 3.5%;
+	padding: 0 0;
+}
+
+.hardSkills li, .softSkills li {
+	display: inline-block;
+	text-align: center;
+	width: 30%;
+	vertical-align: top;
+	margin: .7% 1.5%;
+	padding: 15px 7px;
+	box-sizing: border-box;
+	border: 2px solid #000000;
+	border-radius: 7px;
+}
+
+.hardSkills li:hover, .softSkills li:hover {
+	border-color: #C78C19;
+}
+
+.hardSkills li:active, .softSkills li:active {
+	border-color: #088C19;
+}
+
+.hardSkills li:hover h3, .softSkills li:hover h3 {
+	font-size: 18px;
+}
+
+.hardSkills h3, .softSkills h3 {
+	font-size: 16px;
+	font-weight: 700;
+}
+
+
+

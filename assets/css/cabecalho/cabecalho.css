@@ -1,0 +1,21 @@
+.cabecalho {
+	align-items: center;
+    background-color: var(--cor-azul-10);
+	display: flex;
+	height: 50px;
+	justify-content: space-between;
+	padding: 20px 20px 20px 20px;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 1;	
+}
+
+.fonteTextoNegrito {
+	color: var(--cor-do-texto);
+	font-size: 1rem;
+	font-weight: 700;	
+}
+
+
+

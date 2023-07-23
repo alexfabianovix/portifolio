@@ -1,0 +1,99 @@
+<!-- Declaração de que se trata de um documento tipo html -->
+<!DOCTYPE html>
+
+<!-- conjunto da linguagem a ser utilizada -->
+<html lang="pt-br"> 
+
+	<head>
+		<!-- conjunto de caracteres a serem utilizados -->
+		<meta charset="UTF-8">
+
+		<!-- - viewport para verificar o tamanho da tela utilizada -->
+		<meta name="viewport" content="width=device-width, initial-scale = 1.0">
+		
+		<!-- incluindo uma imagem antes do nome na aba do site -->
+		<link rel="shortcut icon" type="imagex/png" href="./assets/images/estrela-tripla.ico"><title>Portifólio - Principal</title>
+		
+		<!-- limpando todos os atributos do navegador para ter total controle do que fazer -->
+		<link rel="stylesheet" href="./assets/css/reset.css" />
+
+		<!-- folhas de estilo -->
+		<link rel="stylesheet" href="./assets/css/style.css" />
+		<link rel="stylesheet" href="./assets/css/logo-estrela.css" />
+		<link rel="stylesheet" href="./assets/css/cabecalho/cabecalho.css" />
+		<link rel="stylesheet" href="./assets/css/cabecalho/cabecalhoEsquerda.css" />
+		<link rel="stylesheet" href="./assets/css/cabecalho/cabecalhoDireita.css"  />
+		<link rel="stylesheet" href="./assets/css/cabecalho/cabecalhoMenuPrincipal.css" />
+		<link rel="stylesheet" href="./assets/css/paginaInicial.css" />
+		<link rel="stylesheet" href="./assets/css/redesSociais.css" />
+
+		<link rel="stylesheet" href="./assets/css/rodape.css" />
+
+	</head>
+
+	<body>
+		<header class = "cabecalho container">
+			<h1 class = "cabecalho__esquerda">
+				<div class = "logoTresEstrelas" >
+					<img class = "estrelaMaior" id="cabecalho__esquerda--estrelaMaior" src="./assets/images/estrela.svg" alt="logo estrela" >
+					<div class = "estrelasMenores">
+						<img class = "estrelaSuperior" src="./assets/images/estrela.svg" alt = "logo estrela" >
+						<img class = "estrelaInferior" src="./assets/images/estrela.svg" alt = "logo estrela" >
+					</div>
+				</div>	
+				<p class = "acronimo fonteTextoNegrito" id = "cabecalho__esquerda--acronimo"  onmouseover="trocarImagemEstrela()" onmouseout="voltarImagemEstrela()">al f a s</p> 
+			</h1>
+			<nav class="cabecalho__menuPrincipal">
+				<ul class = "cabecalho__menuPrincipal--itensNavegacao fonteTextoNormal">
+					<li><a class="opcaoMenuPrincipal" href="./htmls/sobre.html">Sobre mim</a></li>
+					<li><a class="opcaoMenuPrincipal" href="./htmls/skills.html">Skills</a></li>
+					<li><a class="opcaoMenuPrincipal" href="./htmls/hobbies.html">Hobbies</a></li>
+					<li><a class="opcaoMenuPrincipal" href="./htmls/formacao.html">Formação</a></li>
+					<li><a class="opcaoMenuPrincipal" href="./htmls/projetos.html">Projetos</a></li>
+				</ul>
+			</nav>
+			<section class="cabecalho__direita fonteTextoNegrito">
+				<img class="cabecalho__direita--logoPb" id="cabecalho__direita--logoEmailPb" src="./assets/images/logo-email-pb.png" alt="desenho de uma carta">  
+				<a href="./htmls/formulario.html" onmouseover="trocarImagemEmail()" onmouseout="voltarImagemEmail()">alex.fabiano.vix@gmail.com</a>
+			</section>			
+		</header>	
+		
+		<main>
+			<section class="textoPaginaInicial">
+				<img src="./assets/images/foto-perfil-skills.png" class = "imagemPerfil">
+				<h2 class="tituloPrincipal textoPrincipal">Olá, sou Alex Fabiano,</h2>
+				<h2 class="subTituloPrincipal fonteTitulo">Um Analista de BI, apaixonado por tecnologia.</h2>
+				<span class="textoTituloPrincipal fonteSubTitulo">Atualmente me especializando como Dev Font-End, participando do Projeto Oracle ONE na Alura.</span>	
+			</section>
+			<nav class = "redesSociais">
+				<ul class = "iconesRedesSociais">
+					<li><a href="https://www.github.com/alexfabianovix"><img class="icones" src="./assets/images/sociais/logo-github-pb.png" alt="Link do Github" id = "redesSociais__github"  onmouseover="trocarImagemGithub()" onmouseout="voltarImagemGithub()"></a></li>
+
+					<li><a href="https://www.linkedin.com/in/alexfabianovix/"><img class="icones" src="./assets/images/sociais/logo-linkedin-pb.png" alt="Link do Linkedin" id = "redesSociais__linkedin" onmouseover="trocarImagemLinkedin()" onmouseout="voltarImagemLinkedin()"></a></li>
+
+					<li><a href="https://www.instagram.com/alex_fabiano_vix/"><img class="icones" src="./assets/images/sociais/logo-instagram-pb.png" alt="Link do Instagram" id = "redesSociais__instagram" onmouseover="trocarImagemInstagram()" onmouseout="voltarImagemInstagram()"></a></li>
+
+					<li><a href="https://twitter.com/alexfabianovix"><img class="icones" src="./assets/images/sociais/logo-twitter-pb.png" alt="Link do Twitter" id = "redesSociais__twitter" onmouseover="trocarImagemTwitter()" onmouseout="voltarImagemTwitter()"></a></li>
+
+					<li><a href="./assets/docs/Alex-fabiano.pdf"><img class="icones" src="./assets/images/logo-curriculum-pb.png" alt="Link do meu Currículum" id = "redesSociais__curriculum" onmouseover="trocarImagemCurriculum()" onmouseout="voltarImagemCurriculum()"></a></li>
+
+				</ul>
+			</nav>
+
+		</main>
+
+		<footer>
+			<section class="responsavel">
+				<p class="fonteTextoNormal" id="textoRodape" onmouseover="trocarImagemRodape()" onmouseout="voltarImagemRodape()">Desenvolvido por Alex Fabiano</p>
+				<img class = "estrelaMaior" id="cabecalho__esquerda--estrelaRodape" src="./assets/images/estrela.svg" alt="logo estrela" >
+				<p class="fonteTextoNormal" id="textoRodape" onmouseover="trocarImagemRodape()" onmouseout="voltarImagemRodape()">2023</p>
+			</section>
+		</footer>
+
+		<!-- Importa arquivos Javascript -->
+		<script src="./assets/app/trocaImagemPaginaPrincipal.js"></script>
+		<script src="./assets/app/trocaImagemOutrasPaginas.js"></script>
+
+	</body>
+
+</html>

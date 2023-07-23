@@ -1,0 +1,27 @@
+
+.cabecalho__menuPrincipal {
+	display: flex;
+	justify-content: space-around;
+	text-decoration: none;
+	width: 35%;
+}
+
+.cabecalho__menuPrincipal--itensNavegacao {
+	display: flex;
+	justify-content: space-between;
+	list-style: none;
+	padding: 0 5px 0 5px;
+	width: 100%;	
+}
+
+.opcaoMenuPrincipal {
+	color: var(--cor-do-texto);
+	text-decoration: none;
+}
+
+.opcaoMenuPrincipal:hover {
+	color: var(--cor-dourada);
+	text-decoration: underline;
+}
+
+

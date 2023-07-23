@@ -1,0 +1,22 @@
+footer {
+    background-color: var(--cor-azul-10);
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+    position: fixed;
+    bottom: 0;
+
+    height: 45px;
+    
+}
+
+
+.responsavel {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0 10px 0;
+    width: 22%;
+}
+

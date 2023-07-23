@@ -1,0 +1,207 @@
+/* CSS para todo o site */
+
+/*Fonte a ser utilizada no Portifólio */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap');
+
+/* cores utilizadas */
+:root {
+	--cor-branco-fantasma: #F8F8FF;   
+	--cor-branco-fumaca: #F5F5F5;
+	--cor-azul-10: #EAF2FD;
+	--cor-azul-100: #2A7AE4;
+	--cor-do-texto: #464646; 
+	--cor-dourada: #C78C19;
+	--cor-preto-05: #F5F5F5;
+	--cor-preto-50: #A2A2A2;
+}	
+
+/* Fonte utilizada no Projeto */
+body {
+	background-color: var(--cor-branco-fantasma);
+	font-family: "Raleway";
+	height: 100%;
+	width: 100%;
+	padding-bottom: 45px;
+	transition: all 0.5s ease-in-out;
+}
+
+main {
+	height: 100%;
+	position: relative;
+	top: 110%;
+	width: 100%; 
+	z-index: 0;
+
+}
+
+/* estilo de fontes utilizadas */
+.textoPrincipal {
+	color: var(--cor-do-texto);
+	font-size: 3.25rem;
+	font-weight: 700;
+}
+
+.fonteTitulo {
+	color: var(--cor-do-texto);
+	font-size: 2rem;
+	font-weight: 700;
+}
+
+.fonteSubTitulo {
+	color: var(--cor-do-texto);
+	font-size: 1.3750rem;
+	font-weight: 400;
+}
+
+.fonteTextoNormal {
+	color: var(--cor-do-texto);
+	font-size: 1rem;
+	font-weight: 500;
+}
+
+.fonteTextoNegrito {
+	color: var(--cor-do-texto);
+	font-size: 1rem;
+	font-weight: 700;
+}
+
+
+
+
+/* Meio da página - Principal
+
+main {
+	padding: 80px 0;
+}
+
+.textoDestaque {
+	width: 95%;
+	margin: auto;
+	height: 300px;
+}
+
+h2 { 
+	display: block-inline;
+	width: 70%;
+	padding: 0 3%;
+	font-weight: 700;
+	font-size: 52px;
+	line-height: 61px;
+}	
+
+.textoDestaque p {
+	display: block-inline;
+	width: 63%;
+	padding: 0 3%;
+	heigth: 500px;
+	font-weight: 400;
+	font-size: 22px;
+	line-height: 25.83px;
+	margin-top: 1.5%;
+}
+
+.imagemPerfil {
+	position: absolute;
+	left: 65%;
+	top: 20%;
+		
+	width: 330px;
+}
+
+ Redes Sociais - Ícones
+
+.redesSociais {
+	position: absolute;
+	top: 320px; 
+	padding: 10px 10px; 
+}
+
+.icones {
+	width: 35px;
+	height: 35px;
+}
+
+.escolheItens .github-pb, .escolheItens .linkedin-pb, .escolheItens .instagram-pb, .escolheItens .twitter-pb, .escolheItens .curriculum-pb {
+	position: absolute;
+	margin-left: 3%;
+	margin-top:1.5%;
+    opacity: 1;
+    z-index:1;  
+    cursor: pointer;
+}
+
+.escolheItens .github-cor, .escolheItens .linkedin-cor, .escolheItens .instagram-cor, .escolheItens .twitter-cor, .escolheItens .curriculum-cor {
+	position: absolute;
+    margin-left: 3%;
+    margin-top: 1.5%;
+    cursor: pointer;
+    
+}
+
+.github-pb:hover, .linkedin-pb:hover, .instagram-pb:hover, .twitter-pb:hover, .curriculum-pb:hover {
+	opacity: 0;
+}
+
+.escolheItens .linkedin-pb {
+	margin-left: 8%;
+}
+
+.escolheItens .linkedin-cor {
+	margin-left: 8%;
+}
+
+.escolheItens .instagram-pb {
+	margin-left: 13%;
+}
+
+.escolheItens .instagram-cor {
+    margin-left: 13%;
+}
+
+.escolheItens .twitter-pb {
+    margin-left: 18%;
+}
+
+.escolheItens .twitter-cor {
+    margin-left: 18%;
+}
+
+.escolheItens .curriculum-pb {
+    margin-left: 23%;
+}
+
+.escolheItens .curriculum-cor { 
+	margin-left: 23%; 
+}
+
+/* Página Sobre mim 
+
+.sobreMim {
+	height: 250px;
+	padding: 0px 3%;
+	background: #F5F5F5;
+	font-style: normal;
+}
+
+.sobreMim h3 {
+	font-weight: 700;
+	font-size: 28px;
+	line-height: 38px;
+	padding: 7px 0;
+}
+
+.sobreMim p {
+	width: 751px;
+	height: 133px;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 19px;
+}
+
+.sobreMim img {
+	position: absolute;
+	top: 610px;
+	width: 200px;
+}
+
+*/

@@ -1,0 +1,25 @@
+.cabecalho__direita {
+	display: flex;
+
+	margin-right: 35px;
+}
+
+.cabecalho__direita a {
+	color: var(--cor-do-texto);
+	text-decoration: none;
+}
+
+.cabecalho__direita a:hover {
+	color: var(--cor-dourada);
+}
+
+.cabecalho__direita--logoPb {
+	height: 16px;
+	margin-right: 3px;
+	width: 16px;
+}
+
+.fonteTextoNegrito {
+	font-size: 1rem;
+	font-weight: 700;	
+}

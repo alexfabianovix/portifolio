@@ -1,0 +1,33 @@
+.logoTresEstrelas {
+    display: flex;    
+}
+
+.estrelaMaior {
+    height: 16px;
+    margin-right: -6px;
+    width: 16px;
+}
+
+.estrelasMenores {
+    display: flex;
+    flex-direction: column;
+}
+
+.estrelaSuperior, .estrelaInferior {
+    height: 8px;
+    margin-right: 4px;
+    width: 8px;
+}
+
+.estrelaSuperior {
+    margin-bottom: 3px;
+    margin-top: -1.5px;
+}
+
+.logoTresEstrelas--outras {
+    display: flex; 
+    margin-bottom: 5px;   
+}
+
+
+
